@@ -1,0 +1,49 @@
+Timesheet
+
+
+November 18th: 
+Planning: 1 hour
+Writing the Mountain Class: 1 hour
+Writing the Mountain Range Class: 1.5 hour
+Writing the Main Class: 1 hour
+Making the mountains move 1.5 hours
+Writing the Blocks Class: 1 hour
+
+November 24th:
+Writing the Helicopter Class and making it move: 0.5 hour
+Wrting the collision function: 1 hour
+
+November 25th:
+Making the start menus: 3 hours
+
+November 27th
+Searching for images: 0.5 hours
+Editing the images and importing them into the game: 2 hours
+
+November 28th
+Writing the function to remove mountains after they pass by the screen: 0.5 hours
+Making the lists more efficient: 2 hours
+
+November 29th:
+Writing the present class: 1 hour
+Writing the collide function of presents: 1 hour
+Writing the scoreboard class: 1 hour
+
+November 30th:
+Writing the booster class: 1 hour
+
+December 2nd:
+Writing the hint path: 2 hours
+Adding rockets to the arcade mode: 1 hour
+Making the instructions page: 1 hour
+
+December 3rd:
+Making the game over interface: 1 hour
+Making the game calculate performance: 2 hour
+Making the sock class and poison class: 2 hour
+
+December 4th:
+Editing the instructions: 1 hour
+Making the trees move in the arcade mode: 2 hours
+Editing style: 2 hours
+Writing the design: 1 hour

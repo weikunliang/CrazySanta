@@ -1,0 +1,89 @@
+# DESIGN
+
+# MOUNTAIN CLASS
+
+###############################################################################
+#### This class represents the single mountains that we are creating on the 
+#### top and bottom of the canvas. It takes in a x and y value which represents
+#### the bottom left (top left if it is a top mountain) coordinate of the
+#### mountain and generates random values for its base and height, and
+#### calculates the resulting coordinates accordingly.
+###############################################################################
+
+# MOUNTAIN RANGE CLASS
+
+###############################################################################
+#### This class creates a list of mountain objects and continuously adds 
+#### mountains to it when we move the mountains to the left. When it adds a new
+#### mountain, it randomizes a x value based on the previous x-value. It
+#### deletes mountains as it moves off the screen.
+###############################################################################
+
+# SANTA CLASS
+
+###############################################################################
+#### This class represents our moving Santa. It moves upwards when the user 
+#### presses upward button and falls downward with an acceleration otherwise.
+#### When it accelerates downward, if it reaches its maximum velocity, it keeps
+#### that velocity and stops accelerating.
+###############################################################################
+
+# BLOCKS CLASS
+
+###############################################################################
+#### This class creates a tree, which is an obstacle in our game. It takes in 
+#### a x-value that represents the top left of the tree and a direction that
+#### represents the direction the tree is moving if we are in the arcade mode.
+###############################################################################
+
+# BLOCK LIST CLASS
+
+###############################################################################
+#### This class creates a list of Block objects. It takes a distance as a 
+#### parameter, which represents the distance between each blocks. It 
+#### continuously adds block objects as we move to the left and deletes them
+#### as they move off the screen. For the arcade mode, it alternates the
+#### direction the block objects are moving. 
+###############################################################################
+
+# BOOSTER CLASS
+
+###############################################################################
+#### This class represents the rockets that we see in the arcade mode. When it 
+#### is created, it randomizes a x and y value that represents the center of
+#### the booster. The booster list class represents a list of all the boosters.
+#### It continuously deletes the boosters as they move off the screen. If Santa
+#### collides with the booster, it speeds up for a certain amount of time and 
+#### then returns to its normal speed.
+###############################################################################
+
+# PRESENT CLASS AND PRESENT LIST CLASS
+
+###############################################################################
+#### Present class represents the presents that appear in the arcade mode. It
+#### takes in a x and y value that represents the center of the present. The
+#### present list class represents a list of all the presents. It continuously
+#### adds presents to the list as we move to the left and deletes them as they
+#### move off the screen. If Santa collides with the present, it collects it 
+#### and a bonus will be added at the end of the game.
+###############################################################################
+
+# SOCK CLASS POISON CLASS
+
+###############################################################################
+#### Poison class represents the poisons that appear in the arcade mode. It
+#### randomly generates a x and y value that represents the center of the
+#### poison. The poison list class represents a list of all the poisons. It
+#### continuously deletes the poisons as they move off the screen. If Santa
+#### collides with the poison, it loses a sock. If all the socks are lost,
+#### Santa dies. The sock class represents the number of times Santa can hit
+#### the poison. It takes in a x and y value which represents the center
+#### coordinates of the sock. The sock list class creates a list of socks
+#### and removes one if Santa collides with a poison
+###############################################################################
+
+# SCORE CLASS
+
+###############################################################################
+#### This class draws the score board when the game is over
+###############################################################################
