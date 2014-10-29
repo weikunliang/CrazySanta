@@ -1,3 +1,5 @@
 Crazy Santa
 ===========
-This game was built as my term project for 15-112 Fundamentals of Programming. In order to play the game, download the code and run main.py.
+This is final code for the course project in 15-112: Fundamentals of Programming.
+
+To set this game up, download the code and run main.py
